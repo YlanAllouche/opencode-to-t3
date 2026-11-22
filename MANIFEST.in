@@ -1,0 +1,19 @@
+include resolve_reference.py
+include AGENTS.md
+recursive-include tests *.py
+prune handover
+prune workspace
+prune .private
+prune .research
+prune .tools
+prune sources
+prune reports
+prune staging
+prune owner-slices
+prune attachments
+prune build
+prune dist
+prune .venv
+global-exclude *.py[cod]
+global-exclude *.db *.db-* *.sqlite *.sqlite-* *.sqlite3 *.sqlite3-*
+global-exclude .env .env.*
